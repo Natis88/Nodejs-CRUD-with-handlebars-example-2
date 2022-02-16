@@ -1,0 +1,23 @@
+<div style="float: right; width:100">
+    <a type="button" href="/posts" class="btn btn-secondary"><i class="fas fa-tasks"></i> ניהול</a>
+</div>
+<div class="container">
+    <div class="card-group">
+        {{#each postsDB}}
+        <div class="card">
+            <img class="card-img-top" src="{{picture}}" alt="">
+            <div class="card-body">
+                <h4 class="card-title" dir="rtl">{{title}} </h4>
+                <p class="card-text" dir="rtl">{{description}} </p>
+                <a href="{{link}}" class="card-link text-danger">קרא עוד..</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">נוסף בתאריך {{date}}</small>
+            </div>
+
+        </div>
+        {{/each}}
+    </div>
+
+
+</div>

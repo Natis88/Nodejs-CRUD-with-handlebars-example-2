@@ -1,0 +1,54 @@
+<div class="container" align="center">
+    <form action="/posts" method="POST">
+        <h2 align="center">כתבה חדשה</h2>
+        <div class="col" align="center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="first">כותרת</label>
+                    <input type="text" class="form-control" placeholder="" name="title">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="last">תקציר כתבה</label>
+                    <input type="text" class="form-control" placeholder="" name="description">
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="company">תאריך</label>
+                    <input type="text" class="form-control" placeholder="" name="date">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="phone">תמונה</label>
+                    <input type="text" class="form-control" id="phone" placeholder="/public/images/example.jpg"
+                        name="picture">
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <textarea name="textstory" id="" cols="90" rows="10" placeholder="כתוב את הפוסט כאן..."></textarea>
+                </div>
+            </div>
+
+            <br>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">שלח</button>
+                </div>
+            </div>
+
+    </form>
+
+</div>
+<br>
+<a href="/" type="button" class="btn btn-secondary"><i class="fas fa-home"></i></i> ראשי</a>
